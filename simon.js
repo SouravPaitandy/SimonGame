@@ -9,7 +9,7 @@ let started = false;
 let h2 = document.querySelector('h2');
 let body = document.querySelector('body'); 
 
-document.addEventListener("click",function(){
+h2.addEventListener("click",function(){
     //console.log("game started");
     if(started==false){
         console.log("started.");
