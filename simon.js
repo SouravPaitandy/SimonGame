@@ -77,5 +77,3 @@ function bodyFlash(){
         body.classList.remove("bodyFlash");
     }, 150);
 }
-
-
