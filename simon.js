@@ -57,7 +57,7 @@ function cheeckAns(idx){
             setTimeout(levelUP, 550);
          }
     }else{
-        h2.innerHTML = `<b>Game Over,</b> <b>Your Score:</b> ${level - 1}. Press me again to continue.`;
+        h2.innerHTML = `<b>Game Over,</b> <b>Your Score:</b> ${level -1}. Press here to continue.`;
         highScore.push(level);
     let hS =Math.max(...highScore);
     let h3 = document.createElement('h3');
